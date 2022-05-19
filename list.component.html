@@ -1,0 +1,37 @@
+<p>list works!</p>
+
+<table border="1">
+
+    <tr>
+
+        <th>loanId</th>
+
+        <th>loanCustomerName</th>
+
+        <th>loanAmount</th>
+
+        <th>dateOfLoan</th>
+
+        <th>tenure</th>
+
+        <th>rateOfInterest</th>
+
+    </tr>
+
+    <tr *ngFor="let l of loanss">
+
+        <td>{{l.loanId}}</td>
+
+        <td>{{l.loanCustomerName}}</td>
+
+        <td>{{l.loanAmount}}</td>
+
+        <td>{{l.dateOfLoan}}</td>
+
+        <td>{{l.tenure}}</td>
+
+        <td>{{l.rateOfInterest}}</td>
+
+    </tr>
+
+</table>
